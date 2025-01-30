@@ -16,6 +16,7 @@ h2{
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
 }
 .main-container{
 
@@ -27,7 +28,6 @@ h1{
     margin: 0px;
     padding: 0px;
     bottom: 0px;
-    gap: 1vw;
 }
 
 
@@ -39,8 +39,12 @@ h1{
 
 .right-container{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
     width: 60vw;
+    gap: 20px;
 }
 
 .left-container{
@@ -55,10 +59,98 @@ h1{
 
 .banner{
     position: relative;
-    top: 40vh;
+    top: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(8, 9, 9, 0.15);
 }
+
+
+input, label{
+    display: block;
+    border-radius: 5px;
+}
+
+input:default{
+    border: 3px solid #E5E7EB;
+}
+
+.sign-up{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0px 0px 0px 50px;
+}
+
+.name-row{
+    display: flex;
+    gap: 30px;
+}
+
+.contact-row{
+    display: flex;
+    gap: 30px;
+}
+
+.password-conf{
+    display: flex;
+    gap: 30px;
+}
+
+.header{
+
+    background-color: rgb(43, 43, 43, 0.05);
+
+    padding: 75px;
+
+
+}
+
+.bottom{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0px 0px 0px 50px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button:hover{
+
+    background-color: rgb(43, 43, 43, 0.85);
+    color: white;
+}
     
+
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
+
+input:focus{
+    border: blue;
+    box-shadow: 5px 4px 4px lightblue;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover{
+    color: black;
+}
