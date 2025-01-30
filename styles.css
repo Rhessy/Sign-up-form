@@ -1,0 +1,37 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.coffeeiced{
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
+.locoCoco{
+
+    height: auto;
+    width: 100px;
+}
+
+.left-container{
+    height: 100%;
+    width: 80vw;
+    background-image: url("images/coffeeiced.jpg");
+    background-repeat: no-repeat;
+}
+
+.banner{
+    position: relative;
+    top: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 9, 9, 0.3);
+}
