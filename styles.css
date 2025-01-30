@@ -1,17 +1,35 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('fonts/Norse-Bold.otf');
+}
+
 body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+h2{
+    font-family: 'Norse-Bold';
+    font-size: 40px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main-container{
 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 98vw;
+    margin: 0px;
+    padding: 0px;
+    bottom: 0px;
+    gap: 1vw;
 }
 
-.coffeeiced{
-    position: absolute;
-    z-index: -1;
-    top: 0px;
-    left: 0px;
-}
 
 .locoCoco{
 
@@ -19,19 +37,27 @@ body{
     width: 100px;
 }
 
+.right-container{
+    display: flex;
+    height: 100vh;
+    width: 79vw;
+}
+
 .left-container{
+    flex-basis: 50%;
     height: 100%;
-    width: 80vw;
+    width: 19vw;
     background-image: url("images/coffeeiced.jpg");
     background-repeat: no-repeat;
 }
 
+
 .banner{
     position: relative;
-    top: 25vh;
-    width: 100%;
+    top: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(8, 9, 9, 0.3);
 }
+    
