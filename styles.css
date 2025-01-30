@@ -40,15 +40,16 @@ h1{
 .right-container{
     display: flex;
     height: 100vh;
-    width: 79vw;
+    width: 60vw;
 }
 
 .left-container{
     flex-basis: 50%;
     height: 100%;
-    width: 19vw;
-    background-image: url("images/coffeeiced.jpg");
+    width: 40vw;
+    background-image: url("images/icedCoffee.jpeg");
     background-repeat: no-repeat;
+    background-position: left 46% bottom 50%;
 }
 
 
@@ -58,6 +59,6 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(8, 9, 9, 0.3);
+    background-color: rgb(8, 9, 9, 0.15);
 }
     
